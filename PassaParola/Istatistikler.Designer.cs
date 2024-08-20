@@ -38,6 +38,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.lblbossoru = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnyenidenbaslat = new System.Windows.Forms.Button();
+            this.btnkapat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -150,12 +152,38 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "BOŞ SORU SAYISI :";
             // 
+            // btnyenidenbaslat
+            // 
+            this.btnyenidenbaslat.BackColor = System.Drawing.Color.Silver;
+            this.btnyenidenbaslat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnyenidenbaslat.Location = new System.Drawing.Point(50, 362);
+            this.btnyenidenbaslat.Name = "btnyenidenbaslat";
+            this.btnyenidenbaslat.Size = new System.Drawing.Size(190, 31);
+            this.btnyenidenbaslat.TabIndex = 10;
+            this.btnyenidenbaslat.Text = "YENİDEN BAŞLAT";
+            this.btnyenidenbaslat.UseVisualStyleBackColor = false;
+            this.btnyenidenbaslat.Click += new System.EventHandler(this.btnyenidenbaslat_Click);
+            // 
+            // btnkapat
+            // 
+            this.btnkapat.BackColor = System.Drawing.Color.Silver;
+            this.btnkapat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnkapat.Location = new System.Drawing.Point(269, 362);
+            this.btnkapat.Name = "btnkapat";
+            this.btnkapat.Size = new System.Drawing.Size(190, 31);
+            this.btnkapat.TabIndex = 11;
+            this.btnkapat.Text = "ÇIKIŞ";
+            this.btnkapat.UseVisualStyleBackColor = false;
+            this.btnkapat.Click += new System.EventHandler(this.btnkapat_Click);
+            // 
             // Istatistikler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(497, 421);
+            this.Controls.Add(this.btnkapat);
+            this.Controls.Add(this.btnyenidenbaslat);
             this.Controls.Add(this.lblbossoru);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblpuan);
@@ -191,5 +219,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblbossoru;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnyenidenbaslat;
+        private System.Windows.Forms.Button btnkapat;
     }
 }

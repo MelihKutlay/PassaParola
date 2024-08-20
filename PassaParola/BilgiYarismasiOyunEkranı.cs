@@ -218,6 +218,7 @@ namespace PassaParola
                 btnharfler.BackColor = Color.White;
                 btncevapla.Visible = true;
                 btnsoru.Visible = false;
+                btnbitir.Visible = true;
             }
         }
 
@@ -806,7 +807,6 @@ namespace PassaParola
                     btnz.BackColor = Color.Red;
                     btnharfler.BackColor = Color.Red;
                     btncevapla.Visible = false;
-                    btnbitir.Visible = true;
                     MessageBox.Show("YANLIŞ CEVAP", "YANLIŞ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }

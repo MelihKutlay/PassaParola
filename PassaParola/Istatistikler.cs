@@ -17,7 +17,18 @@ namespace PassaParola
             InitializeComponent();
         }
          public int toplamsoru, dogrusayisi, yanlissayisi, toplampuan, bossorusayisi;
-         
+
+        private void btnkapat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnyenidenbaslat_Click(object sender, EventArgs e)
+        {
+            BilgiYarismasiGiris basla = new BilgiYarismasiGiris();
+            basla.Show();
+        }
+
         private void Istatistikler_Load(object sender, EventArgs e)
         {
             lbltoplamsoru.Text = toplamsoru.ToString();

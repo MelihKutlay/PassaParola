@@ -377,7 +377,7 @@
             this.btnbitir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbitir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbitir.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnbitir.Location = new System.Drawing.Point(162, 208);
+            this.btnbitir.Location = new System.Drawing.Point(137, 208);
             this.btnbitir.Name = "btnbitir";
             this.btnbitir.Size = new System.Drawing.Size(133, 33);
             this.btnbitir.TabIndex = 26;
