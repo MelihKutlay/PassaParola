@@ -17,8 +17,8 @@ namespace PassaParola
         {
             InitializeComponent();
         }
-        int soruno = 0, dogru = 0, yanlis = 0,  bossoru = 0;
-        double puan = 0;
+        int soruno = 0, dogru = 0, yanlis = 0, puan = 0, bossoru = 0;
+        
         private void PassaParolaBilgiYarismasi_Load(object sender, EventArgs e)
         {
             btncevapla.Visible = false;

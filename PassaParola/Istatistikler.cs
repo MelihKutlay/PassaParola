@@ -16,8 +16,8 @@ namespace PassaParola
         {
             InitializeComponent();
         }
-         public int toplamsoru, dogrusayisi, yanlissayisi, bossorusayisi;
-        public double toplampuan;
+         public int toplamsoru, dogrusayisi, yanlissayisi, toplampuan, bossorusayisi;
+         
         private void Istatistikler_Load(object sender, EventArgs e)
         {
             lbltoplamsoru.Text = toplamsoru.ToString();
