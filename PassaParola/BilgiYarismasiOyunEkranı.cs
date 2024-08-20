@@ -45,7 +45,7 @@ namespace PassaParola
                 if (txtcevap.Text == "AKDENİZ" || txtcevap.Text == "akdeniz")
                 {
                     dogru++;
-                    puan += 4.16;
+                    puan += 100;
                     lblpuan.Text = puan.ToString();
                     lbldogru.Text = dogru.ToString();
                     btna.BackColor = Color.Green;
