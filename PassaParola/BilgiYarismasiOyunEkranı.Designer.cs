@@ -76,6 +76,7 @@
             // 
             // btna
             // 
+            this.btna.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btna.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btna.Location = new System.Drawing.Point(18, 58);
             this.btna.Name = "btna";
@@ -86,6 +87,7 @@
             // 
             // btnb
             // 
+            this.btnb.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnb.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnb.Location = new System.Drawing.Point(75, 58);
             this.btnb.Name = "btnb";
@@ -96,6 +98,7 @@
             // 
             // btnc
             // 
+            this.btnc.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnc.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnc.Location = new System.Drawing.Point(132, 58);
             this.btnc.Name = "btnc";
@@ -106,6 +109,7 @@
             // 
             // btnd
             // 
+            this.btnd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnd.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnd.Location = new System.Drawing.Point(189, 58);
             this.btnd.Name = "btnd";
@@ -116,6 +120,7 @@
             // 
             // btne
             // 
+            this.btne.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btne.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btne.Location = new System.Drawing.Point(246, 58);
             this.btne.Name = "btne";
@@ -126,6 +131,7 @@
             // 
             // btnf
             // 
+            this.btnf.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnf.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnf.Location = new System.Drawing.Point(303, 58);
             this.btnf.Name = "btnf";
@@ -136,6 +142,7 @@
             // 
             // btng
             // 
+            this.btng.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btng.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btng.Location = new System.Drawing.Point(303, 104);
             this.btng.Name = "btng";
@@ -146,6 +153,7 @@
             // 
             // btnh
             // 
+            this.btnh.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnh.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnh.Location = new System.Drawing.Point(303, 150);
             this.btnh.Name = "btnh";
@@ -156,6 +164,7 @@
             // 
             // btnı
             // 
+            this.btnı.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnı.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnı.Location = new System.Drawing.Point(303, 196);
             this.btnı.Name = "btnı";
@@ -166,6 +175,7 @@
             // 
             // btnj
             // 
+            this.btnj.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnj.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnj.Location = new System.Drawing.Point(303, 291);
             this.btnj.Name = "btnj";
@@ -176,6 +186,7 @@
             // 
             // btnk
             // 
+            this.btnk.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnk.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnk.Location = new System.Drawing.Point(303, 337);
             this.btnk.Name = "btnk";
@@ -186,6 +197,7 @@
             // 
             // btnl
             // 
+            this.btnl.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnl.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnl.Location = new System.Drawing.Point(303, 382);
             this.btnl.Name = "btnl";
@@ -196,6 +208,7 @@
             // 
             // btnm
             // 
+            this.btnm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnm.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnm.Location = new System.Drawing.Point(246, 382);
             this.btnm.Name = "btnm";
@@ -206,6 +219,7 @@
             // 
             // btnn
             // 
+            this.btnn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnn.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnn.Location = new System.Drawing.Point(189, 382);
             this.btnn.Name = "btnn";
@@ -216,6 +230,7 @@
             // 
             // btno
             // 
+            this.btno.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btno.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btno.Location = new System.Drawing.Point(132, 382);
             this.btno.Name = "btno";
@@ -226,6 +241,7 @@
             // 
             // btnp
             // 
+            this.btnp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnp.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnp.Location = new System.Drawing.Point(75, 382);
             this.btnp.Name = "btnp";
@@ -236,6 +252,7 @@
             // 
             // btnr
             // 
+            this.btnr.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnr.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnr.Location = new System.Drawing.Point(18, 382);
             this.btnr.Name = "btnr";
@@ -246,6 +263,7 @@
             // 
             // btns
             // 
+            this.btns.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btns.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btns.Location = new System.Drawing.Point(18, 337);
             this.btns.Name = "btns";
@@ -256,6 +274,7 @@
             // 
             // btnt
             // 
+            this.btnt.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnt.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnt.Location = new System.Drawing.Point(18, 291);
             this.btnt.Name = "btnt";
@@ -266,6 +285,7 @@
             // 
             // btnu
             // 
+            this.btnu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnu.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnu.Location = new System.Drawing.Point(18, 245);
             this.btnu.Name = "btnu";
@@ -276,6 +296,7 @@
             // 
             // btnv
             // 
+            this.btnv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnv.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnv.Location = new System.Drawing.Point(18, 199);
             this.btnv.Name = "btnv";
@@ -286,6 +307,7 @@
             // 
             // btny
             // 
+            this.btny.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btny.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btny.Location = new System.Drawing.Point(18, 153);
             this.btny.Name = "btny";
@@ -296,6 +318,7 @@
             // 
             // btnz
             // 
+            this.btnz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnz.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnz.Location = new System.Drawing.Point(18, 106);
             this.btnz.Name = "btnz";
@@ -306,6 +329,7 @@
             // 
             // btni
             // 
+            this.btni.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btni.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btni.Location = new System.Drawing.Point(303, 242);
             this.btni.Name = "btni";
@@ -316,6 +340,7 @@
             // 
             // btnharfler
             // 
+            this.btnharfler.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnharfler.Font = new System.Drawing.Font("Snap ITC", 72F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnharfler.Location = new System.Drawing.Point(75, 104);
             this.btnharfler.Name = "btnharfler";
@@ -352,7 +377,7 @@
             this.btnbitir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbitir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbitir.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnbitir.Location = new System.Drawing.Point(137, 208);
+            this.btnbitir.Location = new System.Drawing.Point(162, 208);
             this.btnbitir.Name = "btnbitir";
             this.btnbitir.Size = new System.Drawing.Size(133, 33);
             this.btnbitir.TabIndex = 26;
@@ -373,7 +398,7 @@
             this.btnsoru.TabIndex = 1;
             this.btnsoru.Text = "YENİ SORU";
             this.btnsoru.UseVisualStyleBackColor = false;
-            this.btnsoru.Click += new System.EventHandler(this.btncevap_Click);
+            this.btnsoru.Click += new System.EventHandler(this.btnsoru_Click);
             // 
             // groupBox2
             // 

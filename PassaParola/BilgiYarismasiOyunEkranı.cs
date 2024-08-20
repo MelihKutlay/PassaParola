@@ -18,7 +18,209 @@ namespace PassaParola
             InitializeComponent();
         }
         int soruno = 0, dogru = 0, yanlis = 0, puan = 0, bossoru = 0;
-        
+
+        private void btnsoru_Click(object sender, EventArgs e)
+        {
+            btncevapla.Visible = true;
+            soruno++;
+            txtcevap.Clear();
+            txtcevap.Focus();
+            groupBox1.Text = "SORU" + " " + soruno;
+
+            if (soruno == 1)
+            {
+                btnharfler.Text = "A";
+                rchsoru.Text = "ÜLKEMİZİN GÜNEY KISMINDAKİ DENİZİN ADI ?";
+                btna.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 2)
+            {
+                btnharfler.Text = "B";
+                btncevapla.Visible = true;
+                rchsoru.Text = "YEŞİLLİĞİYLE ÜNLÜ MARMARA İLİMİZ ?";
+                btnb.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 3)
+            {
+                btnharfler.Text = "C";
+                btncevapla.Visible = true;
+                rchsoru.Text = "ŞEKLİ BEYNE BENZEYEN BİR KURUYEMİŞ ?";
+                btnc.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 4)
+            {
+                btnharfler.Text = "D";
+                btncevapla.Visible = true;
+                rchsoru.Text = "PERİYODİK TABLODA FE OLAN ELEMENTİN ADI ?";
+                btnd.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 5)
+            {
+                btnharfler.Text = "E";
+                btncevapla.Visible = true;
+                rchsoru.Text = "VÜCUDUMUZDA 5 ADET PARMAĞI OLAN ORGAN ?";
+                btne.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 6)
+            {
+                btnharfler.Text = "F";
+                btncevapla.Visible = true;
+                rchsoru.Text = "ATLI ŞEKİLDE TURİSTİK AMAÇLI BİNDİĞİMİZ ARAÇ ?";
+                btnf.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 7)
+            {
+                btnharfler.Text = "G";
+                btncevapla.Visible = true;
+                rchsoru.Text = "ÜLKEMİZDE BULUNAN İLK VE TEK 4 YILDIZLI TAKIM ?";
+                btng.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 8)
+            {
+                btnharfler.Text = "H";
+                btncevapla.Visible = true;
+                rchsoru.Text = "KEDİ, KÖPEK, KUŞ GİBİ VARLIKLARIN GENEL ADI ?";
+                btnh.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 9)
+            {
+                btnharfler.Text = "I";
+                btncevapla.Visible = true;
+                rchsoru.Text = "TÜRKİYENİN GÜNEY DOĞUSUNDA BULUNAN KOMŞU ÜLKE ?";
+                btnı.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 10)
+            {
+                btnharfler.Text = "İ";
+                btncevapla.Visible = true;
+                rchsoru.Text = "BOĞA GÜREŞİYLE MEŞHUR ÜLKE ?";
+                btni.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 11)
+            {
+                btnharfler.Text = "J";
+                btncevapla.Visible = true;
+                rchsoru.Text = "TÜRKİYENİN KOLLUK KUVVETİ ?";
+                btnj.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 12)
+            {
+                btnharfler.Text = "K";
+                btncevapla.Visible = true;
+                rchsoru.Text = "VÜCUDUMUZDA BULUNAN VE KAN POMPALAYAN ORGAN ?";
+                btnk.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 13)
+            {
+                btnharfler.Text = "L";
+                btncevapla.Visible = true;
+                rchsoru.Text = "HOLLANDANIN EN MEŞHUR ÇİÇEĞİ ?";
+                btnl.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 14)
+            {
+                btnharfler.Text = "M";
+                btncevapla.Visible = true;
+                rchsoru.Text = "UZAĞI GÖREMEYEN HASTALARA KOYULAN TEŞHİS ?";
+                btnm.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 15)
+            {
+                btnharfler.Text = "N";
+                btncevapla.Visible = true;
+                rchsoru.Text = "İSLAM DİNİNDE GÜNDE 5 DEFA YAPILMASI FARZ OLAN İBADET ?";
+                btnn.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 16)
+            {
+                btnharfler.Text = "O";
+                btncevapla.Visible = true;
+                rchsoru.Text = "TÜRKİYENİN KARADENİZ BÖLGESİNDE BULUNAN ŞEHİR ?";
+                btno.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 17)
+            {
+                btnharfler.Text = "P";
+                btncevapla.Visible = true;
+                rchsoru.Text = "UZAYDA BULUNAN BİR GEZEGEN ?";
+                btnp.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 18)
+            {
+                btnharfler.Text = "R";
+                btncevapla.Visible = true;
+                rchsoru.Text = "DÜNYANIN EN BÜYÜK YÜZÖLÇMÜNE SAHİP ÜLKE ?";
+                btnr.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 19)
+            {
+                btnharfler.Text = "S";
+                btncevapla.Visible = true;
+                rchsoru.Text = "ERKEKLERİN YÜZÜNDE ÇIKAN KILLARIN TÜMÜ ?";
+                btns.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 20)
+            {
+                btnharfler.Text = "T";
+                btncevapla.Visible = true;
+                rchsoru.Text = "TAŞITLARDA KULLANILAN ÇEMBER BİÇİMLİ PARÇA ?";
+                btnt.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 21)
+            {
+                btnharfler.Text = "U";
+                btncevapla.Visible = true;
+                rchsoru.Text = "HATIRLAMAMAK ?";
+                btnu.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 22)
+            {
+                btnharfler.Text = "V";
+                btncevapla.Visible = true;
+                rchsoru.Text = "TÜRKİYEDE KEDİSİYLE MEŞHUR ŞEHİR ?";
+                btnv.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 23)
+            {
+                btnharfler.Text = "Y";
+                btncevapla.Visible = true;
+                rchsoru.Text = "BİR MEVSİM ?";
+                btny.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+            }
+            if (soruno == 24)
+            {
+                btnharfler.Text = "Z";
+                rchsoru.Text = "SİYAH BEYAZ BİR HAYVAN ?";
+                btnz.BackColor = Color.White;
+                btnharfler.BackColor = Color.White;
+                btncevapla.Visible = true;
+                btnsoru.Visible = false;
+            }
+        }
+
         private void PassaParolaBilgiYarismasi_Load(object sender, EventArgs e)
         {
             btncevapla.Visible = false;
@@ -604,211 +806,12 @@ namespace PassaParola
                     btnz.BackColor = Color.Red;
                     btnharfler.BackColor = Color.Red;
                     btncevapla.Visible = false;
-                    btnbitir.Visible=true;
+                    btnbitir.Visible = true;
                     MessageBox.Show("YANLIŞ CEVAP", "YANLIŞ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
-        private void btncevap_Click(object sender, EventArgs e)
-        {
-            btncevapla.Visible = true;
-            soruno++;
-            txtcevap.Clear();
-            groupBox1.Text = "SORU" + " " + soruno;
 
-            if (soruno == 1)
-            {
-                btnharfler.Text = "A";
-                rchsoru.Text = "ÜLKEMİZİN GÜNEY KISMINDAKİ DENİZİN ADI ?";
-                btna.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 2)
-            {
-                btnharfler.Text = "B";
-                btncevapla.Visible = true;
-                rchsoru.Text = "YEŞİLLİĞİYLE ÜNLÜ MARMARA İLİMİZ ?";
-                btnb.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 3)
-            {
-                btnharfler.Text = "C";
-                btncevapla.Visible = true;
-                rchsoru.Text = "ŞEKLİ BEYNE BENZEYEN BİR KURUYEMİŞ ?";
-                btnc.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 4)
-            {
-                btnharfler.Text = "D";
-                btncevapla.Visible = true;
-                rchsoru.Text = "PERİYODİK TABLODA FE OLAN ELEMENTİN ADI ?";
-                btnd.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 5)
-            {
-                btnharfler.Text = "E";
-                btncevapla.Visible = true;
-                rchsoru.Text = "VÜCUDUMUZDA 5 ADET PARMAĞI OLAN ORGAN ?";
-                btne.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 6)
-            {
-                btnharfler.Text = "F";
-                btncevapla.Visible = true;
-                rchsoru.Text = "ATLI ŞEKİLDE TURİSTİK AMAÇLI BİNDİĞİMİZ ARAÇ ?";
-                btnf.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 7)
-            {
-                btnharfler.Text = "G";
-                btncevapla.Visible = true;
-                rchsoru.Text = "ÜLKEMİZDE BULUNAN İLK VE TEK 4 YILDIZLI TAKIM ?";
-                btng.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 8)
-            {
-                btnharfler.Text = "H";
-                btncevapla.Visible = true;
-                rchsoru.Text = "KEDİ, KÖPEK, KUŞ GİBİ VARLIKLARIN GENEL ADI ?";
-                btnh.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 9)
-            {
-                btnharfler.Text = "I";
-                btncevapla.Visible = true;
-                rchsoru.Text = "TÜRKİYENİN GÜNEY DOĞUSUNDA BULUNAN KOMŞU ÜLKE ?";
-                btnı.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 10)
-            {
-                btnharfler.Text = "İ";
-                btncevapla.Visible = true;
-                rchsoru.Text = "BOĞA GÜREŞİYLE MEŞHUR ÜLKE ?";
-                btni.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 11)
-            {
-                btnharfler.Text = "J";
-                btncevapla.Visible = true;
-                rchsoru.Text = "TÜRKİYENİN KOLLUK KUVVETİ ?";
-                btnj.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 12)
-            {
-                btnharfler.Text = "K";
-                btncevapla.Visible = true;
-                rchsoru.Text = "VÜCUDUMUZDA BULUNAN VE KAN POMPALAYAN ORGAN ?";
-                btnk.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 13)
-            {
-                btnharfler.Text = "L";
-                btncevapla.Visible = true;
-                rchsoru.Text = "HOLLANDANIN EN MEŞHUR ÇİÇEĞİ ?";
-                btnl.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 14)
-            {
-                btnharfler.Text = "M";
-                btncevapla.Visible = true;
-                rchsoru.Text = "UZAĞI GÖREMEYEN HASTALARA KOYULAN TEŞHİS ?";
-                btnm.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 15)
-            {
-                btnharfler.Text = "N";
-                btncevapla.Visible = true;
-                rchsoru.Text = "İSLAM DİNİNDE GÜNDE 5 DEFA YAPILMASI FARZ OLAN İBADET ?";
-                btnn.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 16)
-            {
-                btnharfler.Text = "O";
-                btncevapla.Visible = true;
-                rchsoru.Text = "TÜRKİYENİN KARADENİZ BÖLGESİNDE BULUNAN ŞEHİR ?";
-                btno.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 17)
-            {
-                btnharfler.Text = "P";
-                btncevapla.Visible = true;
-                rchsoru.Text = "UZAYDA BULUNAN BİR GEZEGEN ?";
-                btnp.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 18)
-            {
-                btnharfler.Text = "R";
-                btncevapla.Visible = true;
-                rchsoru.Text = "DÜNYANIN EN BÜYÜK YÜZÖLÇMÜNE SAHİP ÜLKE ?";
-                btnr.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 19)
-            {
-                btnharfler.Text = "S";
-                btncevapla.Visible = true;
-                rchsoru.Text = "ERKEKLERİN YÜZÜNDE ÇIKAN KILLARIN TÜMÜ ?";
-                btns.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 20)
-            {
-                btnharfler.Text = "T";
-                btncevapla.Visible = true;
-                rchsoru.Text = "TAŞITLARDA KULLANILAN ÇEMBER BİÇİMLİ PARÇA ?";
-                btnt.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 21)
-            {
-                btnharfler.Text = "U";
-                btncevapla.Visible = true;
-                rchsoru.Text = "HATIRLAMAMAK ?";
-                btnu.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 22)
-            {
-                btnharfler.Text = "V";
-                btncevapla.Visible = true;
-                rchsoru.Text = "TÜRKİYEDE KEDİSİYLE MEŞHUR ŞEHİR ?";
-                btnv.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 23)
-            {
-                btnharfler.Text = "Y";
-                btncevapla.Visible = true;
-                rchsoru.Text = "BİR MEVSİM ?";
-                btny.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-            }
-            if (soruno == 24)
-            {
-                btnharfler.Text = "Z";
-                rchsoru.Text = "SİYAH BEYAZ BİR HAYVAN ?";
-                btnz.BackColor = Color.Yellow;
-                btnharfler.BackColor = Color.Yellow;
-                btncevapla.Visible = true;
-                btnsoru.Visible = false;
-            }
-        }
+
     }
 }
-
